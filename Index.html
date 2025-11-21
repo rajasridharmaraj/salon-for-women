@@ -1,0 +1,604 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="index.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&family=Playfair+Display:wght@600&display=swap" rel="stylesheet">
+</head>
+<body>
+  
+  <header>
+    <div class="logo-container">
+  <div class="logo">
+    S<i class="bi bi-scissors scissors"></i>lon<span></span>
+  </div>
+  <div class="tagline">Beauty & Style for Women</div>
+</div>
+    <div class="menu-toggle" id="menuBtn"><i class="bi bi-list"></i></div>
+    <nav id="navMenu">
+      <a href="#">Home</a>
+      <a href="about.html">About</a>
+      <a href="services.html">Service</a>
+      <a href="price.html">Price</a>
+      <div class="dropdown">
+        <a href="pages.html">Pages</a>
+        <div class="dropdown-content">
+          <a href="#">Photo Gallery</a>
+          <a href="#">Beauty Blog</a>
+          <a href="#">Our Team</a>
+          <a href="#">Testimonial</a>
+        </div>
+      </div>
+      <a href="contact.html">Contact</a>
+      <div class="social">
+        <a href="#"><i class="bi bi-facebook"></i></a>
+        <a href="#"><i class="bi bi-instagram"></i></a>
+        <a href="#"><i class="bi bi-linkedin"></i></a>
+      </div>
+    </nav>
+  </header>
+<!-- about -->
+  <section class="hero">
+    <div class="hero-left">
+      <h4>Welcome</h4>
+      <h1>Beauty Salon<br>Fashion for<br>Women</h1>
+      <div class="contact-info">
+        <a href="tel:+123456789" class="contact-box">
+          <i class="bi bi-telephone-fill"></i>
+          <div>
+            <span>Call Us</span>
+            <p>+123456789</p>
+          </div>
+        </a>
+
+        <a href="mailto:info@domain.com" class="contact-box">
+          <i class="bi bi-envelope-fill"></i>
+          <div>
+            <span>Mail Us</span>
+            <p>info@domain.com</p>
+          </div>
+        </a>
+      </div>
+    </div>
+
+    <div class="hero-right">
+      <img src="img/hero-slider-2.jpg" alt="Salon">
+      
+    </div>
+  </section>
+
+
+  <section class="about-section">
+    <!-- Left Side Image -->
+    <div class="about-image">
+      <img src="img/about.jpg" alt="Salon Image">
+    </div>
+
+    <!-- Right Side Content -->
+    <div class="about-content">
+      <h4>About Us</h4>
+      <h2>Why People Choose Us!</h2>
+      <p>
+        We provide premium salon services with a touch of elegance and care.  
+        From stylish haircuts to rejuvenating treatments — we make you feel beautiful, inside and out.
+      </p>
+
+      <div class="about-stats">
+        <div class="stat-box">
+          <i class="bi bi-calendar-event"></i>
+          <h3 class="counter" data-target="25">0</h3>
+          <p>Years Experience</p>
+        </div>
+        <div class="stat-box">
+          <i class="bi bi-people"></i>
+          <h3 class="counter" data-target="999">0</h3>
+          <p>Happy Customers</p>
+        </div>
+      </div>
+
+      <!-- Contact Section -->
+      <div class="contact-container">
+        <div class="contact-box">
+          <i class="bi bi-telephone-fill"></i>
+        </div>
+
+        <div class="contact-box1">
+          <h1>+0123456789</h1>
+          <p>Call us direct 24/7 for a free consultation</p>
+        </div>
+      </div>
+
+      <button class="read-btn"><span>Read More</span></button>
+    </div>
+  </section>
+
+<!-- box -->
+
+
+<section class="services">
+  <h2>Our Services</h2>
+  <h1>Explore Our Salon Services</h1>
+
+  <div class="service-container">
+    <div class="service-box">
+      <img src="img/hair-cut.gif" alt="Haircut">
+      <h3>Haircut</h3>
+      <p>Professional haircut styles that bring out your natural look and confidence.</p>
+      <button onclick="alert('Haircut Clicked!')">READ MORE <i class="bi bi-arrow-right"></i></button>
+    </div>
+
+    <div class="service-box">
+      <img src="img/eye-shadow.gif" alt="Makeup">
+      <h3>Makeup</h3>
+      <p>Flawless makeup service for every occasion, tailored to your beauty tone.</p>
+      <button onclick="alert('Makeup Clicked!')">READ MORE <i class="bi bi-arrow-right"></i></button>
+    </div>
+
+    <div class="service-box">
+      <img src="img/wet.gif" alt="Manicure">
+      <h3>Manicure</h3>
+      <p>Relax and beautify your hands with our luxury manicure service.</p>
+      <button onclick="alert('Manicure Clicked!')">READ MORE <i class="bi bi-arrow-right"></i></button>
+    </div>
+
+    <div class="service-box">
+      <img src="img/nails.gif" alt="Pedicure">
+      <h3>Pedicure</h3>
+      <p>Pamper your feet with rejuvenating spa and polish options.</p>
+      <button onclick="alert('Pedicure Clicked!')">READ MORE <i class="bi bi-arrow-right"></i></button>
+    </div>
+
+    <div class="service-box">
+      <img src="img/massage.gif" alt="Massage">
+      <h3>Massage</h3>
+      <p>Ease tension and relax your body with our soothing massage treatments.</p>
+      <button onclick="alert('Massage Clicked!')">READ MORE <i class="bi bi-arrow-right"></i></button>
+    </div>
+
+    <div class="service-box">
+      <img src="img/face-mask.gif" alt="Skin Care">
+      <h3>Skin Care</h3>
+      <p>Glow naturally with our customized facial and skin care sessions.</p>
+      <button onclick="alert('Skin Care Clicked!')">READ MORE <i class="bi bi-arrow-right"></i></button>
+    </div>
+  </div>
+</section>
+
+<!-- price -->
+
+<section class="pricing-section">
+  <!-- LEFT SIDE -->
+  <div class="left-box">
+    <h3>Pricing</h3>
+    <h1>Beauty Salon <span>PRICING</span></h1>
+
+    <!-- OFFER BOX -->
+    <div class="offer-box">
+      <p>Enjoy</p>
+      <h2>20% Off</h2>
+    </div>
+
+    <!-- GET OFFER BOX -->
+    <div class="get-offer-box">
+      <h2>Get Offer</h2>
+      <button onclick="showOffer()">Claim Now</button>
+    </div>
+
+    <p>
+      Pamper yourself with our premium salon services. Enjoy the best care
+      and save with our special seasonal discounts.
+    </p>
+  </div>
+
+  <!-- RIGHT SIDE -->
+  <div class="right-box">
+    <div class="service-item">
+      <div class="service-img"><img src="https://images.pexels.com/photos/16935956/pexels-photo-16935956.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Haircut"></div>
+      <div class="service-content">
+        <span class="service-title">HAIRCUT</span>
+        <span class="service-price">$49</span>
+      </div>
+    </div>
+
+    <div class="service-item">
+      <div class="service-img"><img src="https://images.pexels.com/photos/6953633/pexels-photo-6953633.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Makeup"></div>
+      <div class="service-content">
+        <span class="service-title">MAKEUP</span>
+        <span class="service-price">$79</span>
+      </div>
+    </div>
+
+    <div class="service-item">
+      <div class="service-img"><img src="https://images.pexels.com/photos/18112334/pexels-photo-18112334.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Manicure"></div>
+      <div class="service-content">
+        <span class="service-title">MANICURE</span>
+        <span class="service-price">$59</span>
+      </div>
+    </div>
+
+    <div class="service-item">
+      <div class="service-img"><img src="https://images.pexels.com/photos/7755662/pexels-photo-7755662.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Pedicure"></div>
+      <div class="service-content">
+        <span class="service-title">PEDICURE</span>
+        <span class="service-price">$49</span>
+      </div>
+    </div>
+
+    <div class="service-item">
+      <div class="service-img"><img src="https://images.pexels.com/photos/14256897/pexels-photo-14256897.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Massage"></div>
+      <div class="service-content">
+        <span class="service-title">MASSAGE</span>
+        <span class="service-price">$39</span>
+      </div>
+    </div>
+
+    <div class="service-item">
+      <div class="service-img"><img src="https://images.pexels.com/photos/3985333/pexels-photo-3985333.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Skin Care"></div>
+      <div class="service-content">
+        <span class="service-title">SKIN CARE</span>
+        <span class="service-price">$99</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- gallery -->
+
+ <section class="gallery-section">
+    <h2>Classic Style</h2>
+    <h1>Explore Our Gallery</h1>
+
+    <div class="gallery-grid">
+
+      <div class="gallery-item">
+        <img src="img/gallery-1.jpg" alt="Gallery 1" />
+        <div class="overlay"><i class="bi bi-eye-fill"></i></div>
+      </div>
+
+      <div class="gallery-item">
+        <img src="img/gallery-2.jpg" alt="Gallery 2" />
+        <div class="overlay"><i class="bi bi-eye-fill"></i></div>
+      </div>
+
+      <div class="gallery-item">
+        <img src="img/gallery-3.jpg" alt="Gallery 3" />
+        <div class="overlay"><i class="bi bi-eye-fill"></i></div>
+      </div>
+
+      <div class="gallery-item">
+        <img src="img/gallery-4.jpg" alt="Gallery 4" />
+        <div class="overlay"><i class="bi bi-eye-fill"></i></div>
+      </div>
+
+      <div class="gallery-item">
+        <img src="img/gallery-5.jpg" alt="Gallery 5" />
+        <div class="overlay"><i class="bi bi-eye-fill"></i></div>
+      </div>
+
+      <div class="gallery-item">
+        <img src="img/gallery-6.jpg" alt="Gallery 6" />
+        <div class="overlay"><i class="bi bi-eye-fill"></i></div>
+      </div>
+
+    </div>
+  </section>
+
+<!-- team -->
+
+
+    <section class="team-section">
+  <h2>LUXURY TEAM</h2><br>
+  <h1>Our Experienced Specialists</h1>
+
+  <div class="team-container">
+
+    <!-- BOX 1 -->
+    <div class="team-box">
+      <div class="shine"></div>
+      <img src="img/team-1.jpg">
+      <div class="bottom-info">
+        <h4>Lily Taylor</h4>
+        <p>Hair Expert</p>
+      </div>
+      <div class="team-social">
+        <a href="#"><i class="bi bi-facebook"></i></a>
+        <a href="#"><i class="bi bi-instagram"></i></a>
+        <a href="#"><i class="bi bi-linkedin"></i></a>
+      </div>
+    </div>
+
+    <!-- BOX 2 -->
+    <div class="team-box">
+      <div class="shine"></div>
+      <img src="img/team-2.jpg">
+      <div class="bottom-info">
+        <h4>Olivia Smith</h4>
+        <p>Nail Artist</p>
+      </div>
+      <div class="team-social">
+        <a href="#"><i class="bi bi-facebook"></i></a>
+        <a href="#"><i class="bi bi-instagram"></i></a>
+        <a href="#"><i class="bi bi-linkedin"></i></a>
+      </div>
+    </div>
+
+    <!-- BOX 3 -->
+    <div class="team-box">
+      <div class="shine"></div>
+      <img src="img/team-3.jpg">
+      <div class="bottom-info">
+        <h4>Ava Brown</h4>
+        <p>Beauty Specialist</p>
+      </div>
+      <div class="team-social">
+        <a href="#"><i class="bi bi-facebook"></i></a>
+        <a href="#"><i class="bi bi-instagram"></i></a>
+        <a href="#"><i class="bi bi-linkedin"></i></a>
+      </div>
+    </div>
+
+    <!-- BOX 4 -->
+    <div class="team-box">
+      <div class="shine"></div>
+      <img src="img/team-4.jpg">
+      <div class="bottom-info">
+        <h4>Amelia Jones</h4>
+        <p>Spa Specialist</p>
+      </div>
+      <div class="team-social">
+        <a href="#"><i class="bi bi-facebook"></i></a>
+        <a href="#"><i class="bi bi-instagram"></i></a>
+        <a href="#"><i class="bi bi-linkedin"></i></a>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+    
+<!-- testimonal -->
+ <div class="title-area">
+    <h3>Testimonials</h3>
+    <h2>What Our Clients Say!</h2>
+</div>
+
+<div class="slider-wrapper">
+
+    <button class="btn" id="prev">&#10094;</button>
+
+    <div class="slider-container" id="box">
+        <div class="slider" id="slider">
+
+            <!-- Slide 1 -->
+            <div class="slide">
+                <img src="img/testimonial-1.jpg">
+                <div class="name">Sophie Grace</div>
+                <div class="role">Regular Client</div>
+                <div class="stars">★★★★★</div>
+                <p class="text">
+                    Absolutely loved the service! Clean work and friendly staff. 
+                    Perfect salon experience.
+                </p>
+            </div>
+
+            <!-- Slide 2 -->
+            <div class="slide">
+                <img src="img/testimonial-2.jpg">
+                <div class="name">Angelina Rose</div>
+                <div class="role">Beauty Influencer</div>
+                <div class="stars">★★★★★</div>
+                <p class="text">
+                    Very professional stylists! My makeover looked stunning.
+                </p>
+            </div>
+
+            <!-- Slide 3 -->
+            <div class="slide">
+                <img src="img/testimonial-3.jpg">
+                <div class="name">Victoria James</div>
+                <div class="role">Model</div>
+                <div class="stars">★★★★☆</div>
+                <p class="text">
+                    Premium products & clean environment. Highly recommended!
+                </p>
+            </div>
+
+            <!-- Slide 4 -->
+            <div class="slide">
+                <img src="img/testimonial-4.jpg">
+                <div class="name">Natasha Bloom</div>
+                <div class="role">Bridal Client</div>
+                <div class="stars">★★★★★</div>
+                <p class="text">
+                    Bridal makeup was absolutely perfect. Thank you for making my day so special!
+                </p>
+            </div>
+
+        </div>
+    </div>
+
+    <button class="btn" id="next">&#10095;</button>
+
+</div>
+<br>
+<!-- tips -->
+
+
+
+<section class="blog-section">
+  <!-- Left topic -->
+  <div class="blog-card">
+    <img src="img/blog-1.jpg" alt="Haircolor">
+    <div class="blog-content">
+      <div class="blog-date"><i class="bi bi-calendar"></i> Jan 01, 2045 | <i class="bi bi-folder"></i> Hair Salon</div>
+      <h3>How to Extend The Life of Your Haircolor Effectively</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas eget libero lobortis.</p>
+      <button class="see-btn">See More <i class="bi bi-arrow-right"></i></button>
+    </div>
+  </div>
+
+  <!-- Right topic -->
+  <div class="blog-card">
+    <img src="img/blog-2.jpg" alt="Hairstyles">
+    <div class="blog-content">
+      <div class="blog-date"><i class="bi bi-calendar"></i> Jan 02, 2045 | <i class="bi bi-folder"></i> Hair Salon</div>
+      <h3>Hottest Hairstyles and Haircuts in 2045 You Must Try</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas eget libero lobortis.</p>
+      <button class="see-btn">See More <i class="bi bi-arrow-right"></i></button>
+    </div>
+  </div>
+</section>
+
+
+
+
+<!-- Footer Section -->
+<footer>
+  <div class="footer-top">
+    <!-- Left Column -->
+    <div class="footer-left">
+      <h2>✂ Salone</h2>
+      <p>
+        Aliquam sed elitr elitr erat sed diam ipsum eirmod eos lorem nonumy. Tempor sea ipsum diam sed clita dolore eos dolores magna erat dolore sed stet justo et dolor.
+      </p>
+      
+      <p class="contact-info"><i class="bi bi-geo-alt"></i> 123 Street, New York, USA</p>
+      <p class="contact-info"><i class="bi bi-telephone"></i> +012 345 67890</p>
+      <p class="contact-info"><i class="bi bi-envelope"></i> info@example.com</p>
+
+      <div class="footer-social">
+        <a href="#"><i class="bi bi-twitter"></i></a>
+        <a href="#"><i class="bi bi-facebook"></i></a>
+        <a href="#"><i class="bi bi-linkedin"></i></a>
+        <a href="#"><i class="bi bi-instagram"></i></a>
+      </div>
+    </div>
+
+    <!-- Right Column -->
+    <div class="footer-right">
+      <div class="links">
+        <div class="quick-links">
+          <h3>Quick Links</h3>
+          <ul>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Contact Us</a></li>
+            <li><a href="#">Our Services</a></li>
+            <li><a href="#">Terms & Condition</a></li>
+          </ul>
+        </div>
+        <div class="popular-links">
+          <h3>Popular Links</h3>
+          <ul>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Contact Us</a></li>
+            <li><a href="#">Our Services</a></li>
+            <li><a href="#">Terms & Condition</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Newsletter -->
+      <div class="newsletter">
+        <h3>Newsletter</h3>
+        <div style="display:flex; max-width:400px;">
+          <input type="email" placeholder="Enter Your Email">
+          <button><i class="bi bi-send"></i></button>
+        </div>
+        <p>Diam sed sed dolor stet amet eirmod</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer Bottom -->
+  <div class="footer-bottom">
+    <span>© Your Site Name, All Right Reserved.</span> | Designed By ❤️<a href="#">HTML Codex</a>. Distributed By <a href="#">ThemeWagon</a>
+  </div>
+</footer>
+
+
+
+<!-- price -->
+<script>
+function showOffer() {
+  alert("🎉 Congratulations! You’ve claimed your special offer!");
+}
+</script>
+
+  <script>
+    const menuBtn = document.getElementById('menuBtn');
+    const navMenu = document.getElementById('navMenu');
+    menuBtn.addEventListener('click', () => {
+      navMenu.classList.toggle('show');
+    });
+  </script>
+
+
+
+<!-- about  -->
+<script>
+    // Counter animation on scroll
+    const counters = document.querySelectorAll('.counter');
+    let started = false;
+
+    function animateCounters() {
+      counters.forEach(counter => {
+        const updateCount = () => {
+          const target = +counter.getAttribute('data-target');
+          const count = +counter.innerText;
+          const speed = 50; // adjust speed
+          const increment = target / 100;
+
+          if (count < target) {
+            counter.innerText = Math.ceil(count + increment);
+            setTimeout(updateCount, speed);
+          } else {
+            counter.innerText = target;
+          }
+        };
+        updateCount();
+      });
+    }
+
+    // Intersection Observer for animation
+    const aboutContent = document.querySelector('.about-content');
+    const observer = new IntersectionObserver(entries => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting && !started) {
+          aboutContent.classList.add('show');
+          animateCounters();
+          started = true;
+        }
+      });
+    }, { threshold: 0.5 });
+
+    observer.observe(aboutContent);
+  </script>
+
+<!-- testimonal -->
+ <script>
+let index = 0;
+const slider = document.getElementById("slider");
+const box = document.getElementById("box");
+const slides = document.querySelectorAll(".slide");
+const total = slides.length;
+
+/* Colors for each slide */
+const colors = ["#ffe5ed", "#ffeff6", "#f5e6ff", "#ffe9e2"];
+
+function showSlide(i){
+    index = (i + total) % total;
+    slider.style.transform = `translateX(${-index * 100}%)`;
+    box.style.background = colors[index];   // BG color change
+}
+
+document.getElementById("next").onclick = () => showSlide(index + 1);
+document.getElementById("prev").onclick = () => showSlide(index - 1);
+</script>
+
+</body>
+</html>
